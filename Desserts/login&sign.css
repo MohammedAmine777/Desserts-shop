@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(15, 18%, 96%);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: black;
+}
+h1{
+    color: hsl(14, 86%, 42%);
+}
+
+.card {
+    padding: 20px;
+    gap: 10px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.card:hover{
+    box-shadow: rgb(0, 0, 0);
+
+
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    border: solid 1px hsl(14, 86%, 42%);
+    font-size: 14px;
+    outline: none;
+}
+
+.button-c {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: hsl(14, 86%, 42%);
+    border: solid white 1px;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+    transition: border 0.3s ease;
+
+    
+
+}
+
+button:hover {
+    border: solid 1px hsl(14, 86%, 42%);
+    background-color: white;
+    color: hsl(14, 86%, 42%);
+}
